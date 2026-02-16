@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
 import { Language } from '../types';
 import { LANGUAGES, CONTENT } from '../constants';
-import logo from './assets/logo.png';
 
 interface NavbarProps {
   currentLang: Language;
@@ -44,7 +43,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentLang, setLang }) => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <img
-              src={logo}
+              src="logo.png"
               alt="Transletin Logo"
               className="h-10 w-auto transition-all duration-300"
             />

@@ -4,7 +4,6 @@ import { ChevronDown } from 'lucide-react';
 import { TranslationContent, Language } from '../types';
 import { CONTENT } from '../constants';
 import heroBg from './assets/hero-background.mp4';
-import logo from './assets/logo.png';
 
 interface HeroProps {
   currentLang: Language;
@@ -53,7 +52,7 @@ const Hero: React.FC<HeroProps> = ({ currentLang }) => {
           transition={{ duration: 0.8 }}
         >
           <img
-            src={logo}
+            src="logo.png"
             alt={t.title}
             className="w-full max-w-md mx-auto mb-8 mt-12 drop-shadow-[0_0_15px_rgba(34,211,238,0.4)] opacity-90 hover:opacity-100 transition-opacity duration-500"
           />
