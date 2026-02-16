@@ -8,6 +8,8 @@ interface NavbarProps {
   setLang: (lang: Language) => void;
 }
 
+import logo from './assets/logo.png';
+
 const Navbar: React.FC<NavbarProps> = ({ currentLang, setLang }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -43,7 +45,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentLang, setLang }) => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <img
-              src="/logo.png"
+              src={logo}
               alt="Transletin Logo"
               className="h-10 w-auto transition-all duration-300"
             />
