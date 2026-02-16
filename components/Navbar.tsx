@@ -2,13 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
 import { Language } from '../types';
 import { LANGUAGES, CONTENT } from '../constants';
+import logo from './assets/logo.png';
 
 interface NavbarProps {
   currentLang: Language;
   setLang: (lang: Language) => void;
 }
-
-import logo from './assets/logo.png';
 
 const Navbar: React.FC<NavbarProps> = ({ currentLang, setLang }) => {
   const [isOpen, setIsOpen] = useState(false);
