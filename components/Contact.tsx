@@ -20,7 +20,7 @@ const Contact: React.FC<ContactProps> = ({ currentLang }) => {
           {/* Brand Info */}
           <div>
             <div className="flex items-center mb-6">
-              <img src="/logo.png" alt="Logo" className="h-12" />
+              <img src="logo.png" alt="Logo" className="h-12" />
               <span className="ml-3 text-2xl font-bold tracking-wider text-white font-heading">TRANSLETIN</span>
             </div>
             <p className="text-slate-400 max-w-md mb-8">
@@ -30,7 +30,7 @@ const Contact: React.FC<ContactProps> = ({ currentLang }) => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <a
-              href="https://wa.me/6282112899834"
+              href="https://wa.me/628135430491"
               className="flex items-center p-4 bg-slate-900/50 rounded-xl border border-slate-800 hover:border-green-500/50 shadow-sm hover:shadow-green-900/20 transition-all group backdrop-blur-sm"
             >
               <div className="w-12 h-12 rounded-full bg-green-900/20 flex items-center justify-center mr-4 group-hover:bg-green-500 group-hover:text-white transition-colors text-green-500">
@@ -38,12 +38,12 @@ const Contact: React.FC<ContactProps> = ({ currentLang }) => {
               </div>
               <div>
                 <h4 className="font-bold text-white font-heading">{t.whatsapp}</h4>
-                <p className="text-sm text-slate-400">0821-1289-9834</p>
+                <p className="text-sm text-slate-400">+628135430491</p>
               </div>
             </a>
 
             <a
-              href="mailto:rarham21@gmail.com"
+              href="mailto:transletin1@gmail.com"
               className="flex items-center p-4 bg-slate-900/50 rounded-xl border border-slate-800 hover:border-blue-500/50 shadow-sm hover:shadow-blue-900/20 transition-all group backdrop-blur-sm"
             >
               <div className="w-12 h-12 rounded-full bg-blue-900/20 flex items-center justify-center mr-4 group-hover:bg-blue-500 group-hover:text-white transition-colors text-blue-500">
@@ -51,7 +51,7 @@ const Contact: React.FC<ContactProps> = ({ currentLang }) => {
               </div>
               <div>
                 <h4 className="font-bold text-white font-heading">{t.email}</h4>
-                <p className="text-sm text-slate-400">rarham21@gmail.com</p>
+                <p className="text-sm text-slate-400">transletin1@gmail.com</p>
               </div>
             </a>
 
